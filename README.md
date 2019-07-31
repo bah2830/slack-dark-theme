@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let webviews = document.querySelectorAll(".TeamView webview");
 
   // Fetch our CSS in parallel ahead of time
-  const cssPath = 'https://leoandreotti.github.io/slack-dark-theme/slackdarktheme.css';
+  const cssPath = 'https://raw.githubusercontent.com/bah2830/slack-dark-theme/master/docs/slackdarktheme.css';
   let cssPromise = fetch(cssPath).then(response => response.text());
 
   // Insert a style tag into the wrapper view
